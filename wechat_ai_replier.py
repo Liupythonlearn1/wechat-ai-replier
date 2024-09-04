@@ -18,7 +18,7 @@ def main():
                 print(f"OK: {user_message}")
 
                 # ここで特定の返信メッセージを設定できます
-                reply_message = "これは自動返信メッセージです。"
+                reply_message = "情報を教えてくれてありがとうございます。"
 
                 # WeChatに返信を送信
                 wx.SendMsg(reply_message, "ファイル転送アシスタント")
